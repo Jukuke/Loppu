@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" Height="25" Margin="54,78,0,0" VerticalAlignment="Top" Width="125" SelectionChanged="ComboBox_SelectionChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="195,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="348,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="495,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Height="25" Margin="54,78,0,0" VerticalAlignment="Top" Width="125" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBox x:Name="UnitPrice" HorizontalAlignment="Left" Height="25" Margin="195,78,0,0" TextWrapping="Wrap" Text="UnitPrice" VerticalAlignment="Top" Width="113" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Quantity" HorizontalAlignment="Left" Height="25" Margin="340,78,0,0" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="Discount" HorizontalAlignment="Left" Height="25" Margin="483,78,0,0" TextWrapping="Wrap" Text="Discount" VerticalAlignment="Top" Width="113"/>
 
     </Grid>
 </Window>
